@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,900;1,9..144,700&family=Montserrat:wght@700&display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: hsl(30, 38%, 92%);
+}
+
+h1 {
+  font-size: 11px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+  font-family: sans-serif;
+  padding-top: 10px;
+}
+
+.heading {
+  font-size: 23px;
+  margin: 20px auto;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(212, 21%, 14%);
+  font-weight: bold;
+  line-height: 160%;
+}
+
+body {
+  width: 600px;
+  height: 450px;
+  margin: 100px auto;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.card {
+  margin: 10px 20px 0 316px;
+}
+
+p {
+  margin-top: 18px;
+  color: hsl(228, 12%, 48%);
+  font-family: sans-serif;
+}
+
+.prime-price {
+  color: hsl(158, 36%, 37%);
+  font-size: 35px;
+  font-family: "Fraunces", serif;
+}
+
+.sec-price {
+  margin-left: 20px;
+  text-decoration: line-through;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  left: -50px;
+  display: block;
+  width: 300px;
+  height: 450px;
+  border-radius: 4px 0 0 4px;
+  float: left;
+}
+
+button {
+  font-weight: bold;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  padding: 16px 84px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
